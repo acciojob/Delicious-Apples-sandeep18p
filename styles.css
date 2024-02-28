@@ -1,1 +1,40 @@
 /* your code here */
+.product{
+	display:flex;
+}
+.photo-album ul{
+	display: flex; 
+}
+
+.photo-album ul li{
+	margin-left:10px;
+	border: 1px solid black;
+	width:60px;
+}
+
+.variant ul{
+   
+	display: flex; 
+}
+
+.variant h3 {
+  margin-bottom: 10px; /* Add margin bottom to create space between h3 and ul */
+}
+
+.variant ul{
+	 margin: 0; 
+  padding: 0;
+  /* display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; */
+}
+.variant ul li img {
+	height:30px;
+	width:30px;
+}
+.variant ul li{
+	margin-left: 5px;
+	border: 1px solid black;
+	
+	width:30px;
+}
